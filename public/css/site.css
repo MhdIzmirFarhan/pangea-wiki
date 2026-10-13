@@ -1,0 +1,12 @@
+html, body { margin: 0; padding: 0; }
+body { overscroll-behavior: none; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0a0e17; }
+::-webkit-scrollbar-thumb { background: #262a34; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #c89b3c; }
+@keyframes scanline { 0% { transform: translateY(-100%); } 100% { transform: translateY(1000%); } }
+.animate-scanline { animation: scanline 3.2s linear infinite; }
+@keyframes pulse-ring { 0%, 100% { transform: scale(0.8); opacity: 0.8; } 50% { transform: scale(1.15); opacity: 0.3; } }
+.animate-pulse-ring { animation: pulse-ring 2.4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .animate-scanline, .animate-pulse-ring { animation: none; } }
+.bg-radial { background-image: radial-gradient(circle, var(--tw-gradient-stops)); }

@@ -1,0 +1,1217 @@
+{
+  "site": {
+    "pageTitle": "PANGEA Universe",
+    "brandName": "Pangea",
+    "brandTagline": "Official Universe",
+    "crestImage": "https://lh3.googleusercontent.com/aida/AEtjO1VI-2GbukM1nWYav3X5fwT9O9X3oRVrBALqbXe0-bmNmmGM40v3Ub2p8V_YxoEGwprN3IiPcUKJi6Fcgq_WAG1V4UKJlwFZqiJQgEu-3B80Rh8_4gMsQMfxX0M9svYeXSGGqkCIzuFOx3nCJrJkFoLM1sCmLT51v6ozrzAUwLMKNOdq_laYhk9CwwhrRj0LcaW7R9AM-p-IhQE0cd2d6j8pLdxFDZ-NCiLzE24ZMDcs6YwPCheorC7yRg",
+    "footerText": "PANGEA: Official Universe Archive"
+  },
+  "hero": {
+    "title": "PANGEA",
+    "subtitle": "UNIVERSE",
+    "hook": "When the ancient titan covenants shattered into the Void Ether, four sovereign nations were sundered. As the Solar Eclipse reaches zenith, the final celestial bond must be reclaimed—or the sky will collapse forever.",
+    "backgroundImage": "https://lh3.googleusercontent.com/aida/AEtjO1W7KlVISohs-J9Z_1v_7zmc4MCLpFmJqPFIclCug2PL20yLU-VycgiqV3jMwC2DXd-76Z4IK8z1U73mA2X_K5kfBUTG2sAShytHlWfmJfaCEh11VGEZ-WJY7YA7QF00TX9FW6Gv0T1ENTFxcKvq3vR5C6Al1-73VJO4-vAje5lVNqgWavrmEGpKn3_imX5SJqvDxNT3iJw3f1rcTLh096oNO7rfqGY7JMTWHmPFbW3W64-K-aiGiDbHJog",
+    "primaryButton": "Explore Storyline",
+    "secondaryButton": "View The Nations"
+  },
+  "story": {
+    "eyebrow": "Narrative Structure",
+    "heading": "The Core Chronicle",
+    "intro": "The canonical timeline that explains why Pangea fragmented, who ignited the crisis, and what is required to mend the celestial balance.",
+    "acts": [
+      {
+        "label": "Act 01 // Cosmogenesis",
+        "icon": "all_inclusive",
+        "accent": "primary",
+        "title": "The Birth of the Universe",
+        "body": "Before mortal epochs dawned, the primordial celestial void was shaped by titanic cosmic architects who forged raw light and primordial matter, anchoring existence to the sacred Celestial Core and binding the singular supercontinent in boundless harmony.",
+        "footer": "Pre-Mortal Era // The Primordial Dawn",
+        "highlight": false,
+        "image": "",
+        "facts": [],
+        "sections": [],
+        "nations": []
+      },
+      {
+        "label": "Act 02 // Rupture",
+        "icon": "broken_image",
+        "accent": "secondary",
+        "title": "The Shattered Treaty",
+        "body": "Arrogance in Sol-Khorash unleashed uncontained void siphoning. The tectonic core ruptured, lifting mountain ranges into free-floating archipelagoes isolated across the Void Ether.",
+        "footer": "The Cataclysm of -1150 A.C.",
+        "highlight": false,
+        "image": "",
+        "facts": [],
+        "sections": [],
+        "nations": []
+      },
+      {
+        "label": "Act 03 // Present",
+        "icon": "solar_power",
+        "accent": "primary",
+        "title": "The Last Bond",
+        "body": "As the eclipse casts eternal twilight, four chosen arbiters across the fractured realms must synchronize the remaining Keystone Runes before planetary gravity completely dissolves.",
+        "footer": "Current Canon Crisis",
+        "highlight": true,
+        "image": "",
+        "facts": [],
+        "sections": [],
+        "nations": []
+      }
+    ]
+  },
+  "universe": {
+    "footerNote": "13 Sovereign Realms Documented"
+  },
+  "regions": {
+    "eyebrow": "Continents & Regions",
+    "heading": "Continents & Regions",
+    "intro": "The landmasses and realms of the fractured supercontinent.",
+    "items": [
+      {
+        "name": "Aethelgard",
+        "tag": "Sky Realm",
+        "summary": "",
+        "subregions": "High Skylands, Sun Spire",
+        "icon": "cloud",
+        "accent": "primary",
+        "image": "",
+        "facts": [],
+        "sections": [],
+        "nations": []
+      },
+      {
+        "name": "Sol-Khorash",
+        "tag": "Dune Basin",
+        "summary": "",
+        "subregions": "Brass Dunes, Clockwork Citadels",
+        "icon": "landscape",
+        "accent": "secondary",
+        "image": "",
+        "facts": [],
+        "sections": [],
+        "nations": []
+      },
+      {
+        "name": "Nadir & Frostspire",
+        "tag": "Abyss & Ice",
+        "summary": "",
+        "subregions": "Deep Chasm, Glacial Veil",
+        "icon": "ac_unit",
+        "accent": "tertiary",
+        "image": "",
+        "facts": [],
+        "sections": [],
+        "nations": []
+      }
+    ]
+  },
+  "races": {
+    "eyebrow": "Races & Kin",
+    "heading": "Races of Pangea",
+    "intro": "The peoples who inhabit the sundered continents.",
+    "items": [
+      {
+        "name": "Human",
+        "tag": "",
+        "summary": "Light-weaving sovereigns of Aethelgard",
+        "icon": "person",
+        "accent": "primary",
+        "image": "",
+        "facts": [],
+        "sections": [],
+        "nations": []
+      },
+      {
+        "name": "Elves",
+        "tag": "",
+        "summary": "Zero-gravity adapters & ether nomads",
+        "icon": "park",
+        "accent": "secondary",
+        "image": "",
+        "facts": [],
+        "sections": [],
+        "nations": []
+      },
+      {
+        "name": "Half-Elves",
+        "tag": "",
+        "summary": "Chronomantic architects of the sun dunes",
+        "icon": "diversity_3",
+        "accent": "tertiary",
+        "image": "",
+        "facts": [],
+        "sections": [],
+        "nations": []
+      },
+      {
+        "name": "Dark-Elves",
+        "tag": "",
+        "summary": "Glacial sentinels & mantle dwellers",
+        "icon": "dark_mode",
+        "accent": "primary",
+        "image": "",
+        "facts": [],
+        "sections": [],
+        "nations": []
+      },
+      {
+        "name": "Orks",
+        "tag": "",
+        "summary": "",
+        "icon": "swords",
+        "accent": "secondary",
+        "image": "",
+        "facts": [],
+        "sections": [],
+        "nations": []
+      },
+      {
+        "name": "Centour",
+        "tag": "",
+        "summary": "",
+        "icon": "pets",
+        "accent": "tertiary",
+        "image": "",
+        "facts": [],
+        "sections": [],
+        "nations": []
+      }
+    ]
+  },
+  "history": {
+    "eyebrow": "Historic Eras",
+    "heading": "History of Pangea",
+    "intro": "The ages and turning points of the continent, from the first covenant to the present eclipse.",
+    "items": [
+      {
+        "name": "The Dawn Covenant",
+        "tag": "Epoch 0",
+        "summary": "Primordial unification of the continent",
+        "icon": "history_edu",
+        "accent": "secondary",
+        "image": "",
+        "facts": [],
+        "sections": [],
+        "nations": []
+      }
+    ]
+  },
+  "religions": {
+    "eyebrow": "Faiths & Creeds",
+    "heading": "Religions of Pangea",
+    "intro": "The faiths, creeds and covenants followed across the nations.",
+    "items": [
+      {
+        "name": "Solar Covenant Synod",
+        "tag": "Monotheistic",
+        "summary": "[Placeholder] A short summary of this faith.",
+        "icon": "wb_sunny",
+        "accent": "primary",
+        "image": "",
+        "facts": [
+          {
+            "label": "Type",
+            "value": "Monotheistic State Creed"
+          }
+        ],
+        "sections": [
+          {
+            "heading": "Overview",
+            "body": "[Placeholder] Describe the beliefs, origins and practices of this faith."
+          }
+        ],
+        "nations": [
+          {
+            "name": "New United States"
+          }
+        ]
+      }
+    ]
+  },
+  "nations": {
+    "eyebrow": "Territorial Geopolitics",
+    "heading": "The Sovereign Nations of Pangea",
+    "intro": "Explore the sovereign realms of Pangea across the fractured continents, shaped by magitech, ancient mysticism, and elemental warfare.",
+    "items": [
+      {
+        "code": "NUS",
+        "name": "New United States",
+        "icon": "location_city",
+        "accent": "primary",
+        "emblemCaption": "High Megapolis",
+        "category": "Corporate",
+        "specialty": "Magitech & Floating Cities",
+        "affinity": "Aether Tech",
+        "status": "Active",
+        "officialName": "New United States",
+        "altName": "(The New United States)",
+        "dossier": "Forged in the crucible of the Celestial Fracture, the Confederate States of Aethelgard combine high-orbit corporate oligarchy, solar kinetic armaments, and sky-floating arcologies. Anchored above the toxic abyssal mantle by titanic anti-gravity anchors, the nation projects absolute air dominance over the civilized hemisphere.",
+        "heroImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuBI7WnmwSmPDIJBXNZ_DUKKu9JkfATvRkxBVSkuQjQTYhRdrCk3lE7UNQXV6g0VOcsqrtlEkMf_fPlGojerjzUI_YGsYMb_VqJtFPU9-_LlrvRVdvOCYwW9xzPHL6nNozHiYB6NP_CUBbeqchsVcKRrk-9EicuEbdN4--2kYwQ0x15KOc7iEGYTOfl-axa0i0bL-4hU5RXrNaYNKYRPfBQww1EDq4bd-gCXucn34Syk_E-IJGfsEyV8",
+        "flag": "https://lh3.googleusercontent.com/aida-public/AB6AXuBXwLpygVibVvBBEfq93hr7SX63jl7e31pb0LfC0cd5TSx6BhqIvA1Pq0ag7YGFBYlf-E8BPbYrZGo6h8GiqVhhFxf7-oO-S05DyW9KmOX0LJicLh0ZZv0t9eZnVYMho2uZ6P_8c1GkYASD6JPtyXHTpLK_RUCaaFgifpsADcDZiaHXt8JFt_NUtYhi5s5aKCaCpuLt-NvcqwepVgSU9gSEK6HiHVmr1ZfpZ9H60CL-oeLGMqMbZt0d",
+        "capital": "New Heaven City",
+        "leader": "President Matthew Chase",
+        "currency": "NUS Dollars",
+        "stats": [
+          {
+            "label": "Population",
+            "icon": "groups",
+            "accent": "primary",
+            "value": "242.8M",
+            "note": "82% Bio // 18% Synthetics (Urban Arcology Density)"
+          },
+          {
+            "label": "Language",
+            "icon": "translate",
+            "accent": "secondary",
+            "value": "No Official Language\nMain Language: English\nSecond: Spanish",
+            "note": "Continental Trade Standard & Arcane Dialect"
+          },
+          {
+            "label": "Religion",
+            "icon": "church",
+            "accent": "primary",
+            "value": "No Official Religion",
+            "note": "Solar Covenant Synod // Monotheistic State Creed"
+          }
+        ],
+        "wiki": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "government": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "military": {
+          "tag": "CONFEDERATE ARMED FORCES (NUS-CAF)",
+          "ref": "// STRATEGIC DEFENSE DIRECTIVE // STANAG-MIL-01",
+          "title": "Military Bio & Strategic Defense Overview",
+          "body": "The Confederate States of Aethelgard (New United States) maintains a premier standing military founded on combined-arms airborne warfare, tactical runic ballistics, and high-altitude airspace defense. Originally forged during the brutal continental wars against Los Rios Blancos, the NUS-CAF doctrine guarantees absolute deterrence across sky-floating arcologies, low-mantle abyssal barriers, and sub-orbital flight corridors.",
+          "stats": [],
+          "cardsHeading": "Active Sovereign Branches",
+          "cardsNote": "NUS TRIDENT FORCE STRUCTURE",
+          "cards": [
+            {
+              "name": "NUS Army",
+              "subtitle": "Ground & Arcology Security Forces",
+              "icon": "shield",
+              "accent": "primary",
+              "role": "Arcology garrison defense, void-trench containment, heavy mechanized infantry, and rapid-response tactical bio-synthetic divisions across contested terrestrial zones.",
+              "assets": "Void-Dampener Exo-Armor units, heavy mag-rail walkers, breach legionnaires."
+            },
+            {
+              "name": "NUS Navy",
+              "subtitle": "Stratospheric & Naval Operations",
+              "icon": "sailing",
+              "accent": "secondary",
+              "role": "Low-mantle oceanic security, amphibious launch platforms, subterranean canal control, and heavy floating littoral support carriers securing critical ether-conduit straits.",
+              "assets": "Aegis-class submersible cruisers, ether-turbine destroyers, coastal rail batteries."
+            },
+            {
+              "name": "NUS Air Force",
+              "subtitle": "Strategic Sky Armada & Orbital Dominance",
+              "icon": "helicopter",
+              "accent": "primary",
+              "role": "High-altitude air supremacy, orbital defense interception, anti-gravity dreadnought battle groups, and long-range solar railgun interdiction over the civilized hemisphere.",
+              "assets": "Project S-09 Sky-Dreadnoughts, hypersonic interceptor wings, orbital kinetic bombardment platforms."
+            }
+          ]
+        },
+        "organizations": [
+          {
+            "name": "FBMM"
+          },
+          {
+            "name": "FBIA"
+          }
+        ]
+      },
+      {
+        "code": "LRB",
+        "name": "The White Rivers",
+        "icon": "water_drop",
+        "accent": "tertiary",
+        "emblemCaption": "Los Ríos Blancos",
+        "category": "Sanguine",
+        "specialty": "Ancient Mysticism & Blood Magic",
+        "affinity": "Blood Rites",
+        "status": "Sacred",
+        "officialName": "",
+        "altName": "",
+        "dossier": "",
+        "heroImage": "",
+        "flag": "",
+        "capital": "",
+        "leader": "",
+        "currency": "",
+        "stats": [],
+        "wiki": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "government": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "military": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "organizations": []
+      },
+      {
+        "code": "GPB",
+        "name": "The Great White Plains",
+        "icon": "ac_unit",
+        "accent": "secondary",
+        "emblemCaption": "Grandes Plaines",
+        "category": "Boreal",
+        "specialty": "Ice Magic & Beast Binding",
+        "affinity": "Glacial & Taming",
+        "status": "Glaciated",
+        "officialName": "",
+        "altName": "",
+        "dossier": "",
+        "heroImage": "",
+        "flag": "",
+        "capital": "",
+        "leader": "",
+        "currency": "",
+        "stats": [],
+        "wiki": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "government": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "military": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "organizations": []
+      },
+      {
+        "code": "SNT",
+        "name": "The Empire of Santi",
+        "icon": "cyclone",
+        "accent": "primary",
+        "emblemCaption": "Imperium Santi",
+        "category": "Imperial",
+        "specialty": "Soul Weapons & Wind Sorcery",
+        "affinity": "Aero & Anima",
+        "status": "Command",
+        "officialName": "",
+        "altName": "",
+        "dossier": "",
+        "heroImage": "",
+        "flag": "",
+        "capital": "",
+        "leader": "",
+        "currency": "",
+        "stats": [],
+        "wiki": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "government": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "military": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "organizations": []
+      },
+      {
+        "code": "PRY",
+        "name": "People’s Republic of Yi",
+        "icon": "auto_awesome",
+        "accent": "secondary",
+        "emblemCaption": "Dynastic Core",
+        "category": "Celestial",
+        "specialty": "Qi Energy & Celestial Magic",
+        "affinity": "Meridian & Astral",
+        "status": "Ascendant",
+        "officialName": "",
+        "altName": "",
+        "dossier": "",
+        "heroImage": "",
+        "flag": "",
+        "capital": "",
+        "leader": "",
+        "currency": "",
+        "stats": [],
+        "wiki": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "government": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "military": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "organizations": []
+      },
+      {
+        "code": "NR",
+        "name": "Northern Republic",
+        "icon": "smart_toy",
+        "accent": "primary",
+        "emblemCaption": "Iron Bastion",
+        "category": "Militarized",
+        "specialty": "Alchemy & Mechanical Golems",
+        "affinity": "Golemancy",
+        "status": "Armored",
+        "officialName": "",
+        "altName": "",
+        "dossier": "",
+        "heroImage": "",
+        "flag": "",
+        "capital": "",
+        "leader": "",
+        "currency": "",
+        "stats": [],
+        "wiki": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "government": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "military": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "organizations": []
+      },
+      {
+        "code": "RDL",
+        "name": "République de Lumière",
+        "icon": "palette",
+        "accent": "tertiary",
+        "emblemCaption": "Cité des Illusions",
+        "category": "Phantasm",
+        "specialty": "Illusions & Enchanted Artistry",
+        "affinity": "Prismatic Mirages",
+        "status": "Luminous",
+        "officialName": "",
+        "altName": "",
+        "dossier": "",
+        "heroImage": "",
+        "flag": "",
+        "capital": "",
+        "leader": "",
+        "currency": "",
+        "stats": [],
+        "wiki": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "government": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "military": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "organizations": []
+      },
+      {
+        "code": "PFS",
+        "name": "People’s Federation of Sohm",
+        "icon": "skull",
+        "accent": "secondary",
+        "emblemCaption": "Permafrost Union",
+        "category": "Cryo Union",
+        "specialty": "Necromancy & Cryo Sorcery",
+        "affinity": "Cryo-Necro",
+        "status": "Glacial",
+        "officialName": "",
+        "altName": "",
+        "dossier": "",
+        "heroImage": "",
+        "flag": "",
+        "capital": "",
+        "leader": "",
+        "currency": "",
+        "stats": [],
+        "wiki": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "government": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "military": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "organizations": []
+      },
+      {
+        "code": "MGS",
+        "name": "Mahkota Garuda Sultanate",
+        "icon": "thunderstorm",
+        "accent": "primary",
+        "emblemCaption": "Archipelago Thalassocracy",
+        "category": "Maritime",
+        "specialty": "Storm Magic & Beast Summoning",
+        "affinity": "Tempest & Garuda",
+        "status": "Sovereign",
+        "officialName": "",
+        "altName": "",
+        "dossier": "",
+        "heroImage": "",
+        "flag": "",
+        "capital": "",
+        "leader": "",
+        "currency": "",
+        "stats": [],
+        "wiki": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "government": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "military": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "organizations": []
+      },
+      {
+        "code": "BAK",
+        "name": "Bahiyyat al-Kawkab",
+        "icon": "local_fire_department",
+        "accent": "primary",
+        "emblemCaption": "Brass Citadel",
+        "category": "Desert Realm",
+        "specialty": "Djinn Summoners & Solar Fire",
+        "affinity": "Solar & Djinn",
+        "status": "Radiant",
+        "officialName": "",
+        "altName": "",
+        "dossier": "",
+        "heroImage": "",
+        "flag": "",
+        "capital": "",
+        "leader": "",
+        "currency": "",
+        "stats": [],
+        "wiki": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "government": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "military": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "organizations": []
+      },
+      {
+        "code": "KSH",
+        "name": "Kingdom of Kushanti",
+        "icon": "shield_person",
+        "accent": "tertiary",
+        "emblemCaption": "Savanna Crown",
+        "category": "Warrior Kings",
+        "specialty": "Spirit Talkers & Earth Might",
+        "affinity": "Spirit & Terra",
+        "status": "Unbroken",
+        "officialName": "",
+        "altName": "",
+        "dossier": "",
+        "heroImage": "",
+        "flag": "",
+        "capital": "",
+        "leader": "",
+        "currency": "",
+        "stats": [],
+        "wiki": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "government": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "military": {
+          "tag": "",
+          "ref": "",
+          "title": "",
+          "body": "",
+          "stats": [],
+          "cardsHeading": "",
+          "cardsNote": "",
+          "cards": []
+        },
+        "organizations": []
+      }
+    ]
+  },
+  "characters": {
+    "eyebrow": "Dramatis Personae",
+    "heading": "The Bound Chosen",
+    "items": [
+      {
+        "name": "Vivient Lock",
+        "title": "Tier-1 Tactical Operative",
+        "realm": "New United States",
+        "element": "Ballistic",
+        "icon": "people",
+        "accent": "secondary",
+        "rankBadge": "TIER-1 TACTICAL OPERATIVE // ARCANE BALLISTICS & CQC",
+        "designation": "FORMER STU UNIT // FBMM TACTICAL AGENT",
+        "statusTag": "TACTICAL OPERATIVE // EX-STU",
+        "idCode": "STU-91-LOCK",
+        "portrait": "https://lh3.googleusercontent.com/aida/AEtjO1U2Ajyfb1VEtwqLUCcg2zkFnZTK_GSpFXXkrxQ95970VouYk7Mw841MfIJLfctk49iCWHEku5DX-7H0MWGesLLfgT0C3aTLnUW-mX5MheXNqW3SRVJiaZqogNBG_QcIQY90UMlcNjwha8ecPJGA_6TZEIqNB3lZQcRODBcEmRKjQBw6CvGIVLFvt0r2BbRk9SOlxog2sPYeOuGWgALnT7PHFOFkZ-XINwOTfNppBw4blgZGov88rKAx_7c",
+        "portraitLeft": "https://lh3.googleusercontent.com/aida/AEtjO1Vzh6FxPB6fF4qA8dSOhWhnH8QspCFFYNaKMxCbnAuyviC1fEWV3jbpYn9Doj5RZ5oqiYR1aLJ1UY7SYiFsKzO2JMuDH3Wk_sEWfqVZKfDGcqfcrYg4V5LHf05nYznt1YgG-3PMfOp9UUV8BCdWmRIdFz_O1Ln57lLPlW210ImdT4eKV7-_4MvdPMo7cZbCac6_XFDnJKyZILdeEGZ9PwNnowDr_Thy-8T2g2zdwRbJEe-TtBrHIhyK4Q",
+        "portraitRight": "https://lh3.googleusercontent.com/aida/AEtjO1X8Rm0HfqTr9QlkL4Dw7xLT-8IYGnFSoNnao-puyXDnKFJjs8ZB2p-fl4_4e1SXDfcNCyLBBsmHftokbiuKB3z96bY9RYed_D4lh5OqLN4T8-4MgXBokZYfp7VM5qb3lGC3Tns9zmnosMfhgonwvWDuGyZna1TJxHqf__DLBdXaFLoB9GL5KZKlZjwxBiGzk02CoFS5TLnY9RLqHZ-4hwQrZ-4BPo-XYC7Yg22mGpmEn2XEyX59IPp7Uw",
+        "quote": "I’ll do anything and fight till the end for my little sister, Penelope. I’ll save her no matter what.",
+        "quoteSource": "FIELD RECORDING, POST-OPERATION BROKEN SKY",
+        "profileRef": "FBMM-MED-091",
+        "facts": [
+          {
+            "label": "Age",
+            "value": "26 Years Old",
+            "note": "",
+            "highlight": false,
+            "wide": false
+          },
+          {
+            "label": "Nationality",
+            "value": "New United States",
+            "note": "",
+            "highlight": true,
+            "wide": false
+          },
+          {
+            "label": "Place of Birth",
+            "value": "New Heaven",
+            "note": "",
+            "highlight": false,
+            "wide": false
+          },
+          {
+            "label": "Occupation",
+            "value": "FBMM Operative",
+            "note": "Federal Bureau of Magic Management",
+            "highlight": false,
+            "wide": false
+          },
+          {
+            "label": "Height & Mass",
+            "value": "5 ft 9 in (175 cm) • 150 lbs (68 kg)",
+            "note": "Athletic combat-conditioned density",
+            "highlight": false,
+            "wide": true
+          },
+          {
+            "label": "Cranio-Facial & Battle Scars",
+            "value": "Combat graze scar across right cheekbone",
+            "note": "Sharp chiseled jawline, slightly uplifted nose, and expressive medium lips. Realistic human grit.",
+            "highlight": false,
+            "wide": true
+          },
+          {
+            "label": "Ocular Irises",
+            "value": "Almond Vivid Blue",
+            "note": "Intense tactical focus with piercing human warmth and grit.",
+            "highlight": true,
+            "wide": false
+          },
+          {
+            "label": "Hair & Texture",
+            "value": "Textured Short Blonde Bob",
+            "note": "Messy combat-ready cut with natural grain and movement.",
+            "highlight": false,
+            "wide": false
+          }
+        ],
+        "clearance": "Section II // Clearance OMEGA",
+        "bioTag": "PRE-EVENT CANON DOSSIER",
+        "bioSummary": "Condensed archival dossier summarizing early origins, frontline captivity, and tactical service transition.",
+        "bio": "Orphaned at a young age alongside her younger sister **Penelope** following a tragic vehicular collision, Vivient Lock was raised by Michael and Sara Carter—a decorated veteran and an esteemed alchemical chemist. Imbued with Michael’s unwavering discipline and driven by a fierce desire to protect her sister, Vivient enlisted at age 23 as a tactical reconnaissance operative in the disputed borderlands of Sohm Province.\n\nWhen her reconnaissance squad was ambushed and captured deep behind enemy lines, Vivient endured weeks of brutal interrogation and solitary captivity, sustained purely by an unyielding vow to return home alive to Penelope. After being rescued by allied forces, she received an honorable medical discharge and the **NUS Medal of Valor**—becoming the youngest recipient in nation history—before channelling her trauma and protective instincts into civic defense at the Police Academy, where she graduated **Valedictorian**.\n\nRenowned for neutralizing high-stakes threats without bystander casualties, Vivient now serves as an elite **Tier-1 tactical operative** with the Federal Bureau of Control Magic (FBCM). While her sister Penelope explores volatile esoteric syntheses, Vivient remains grounded in physical defense and unwavering personal accountability—standing as an impenetrable shield for those caught in the crossfire of fractured nations.",
+        "kinshipTag": "ARCHIVAL RECORD // VERIFIED",
+        "kinshipSummary": "Authenticated lineage registry, guardian household dynamics, and core psychological temperament analysis.",
+        "kinship": [
+          {
+            "name": "Anthony & Samantha Lock",
+            "relation": "Biological • Deceased",
+            "accent": "tertiary",
+            "description": "Father Anthony was a transit machinist known for mechanical tenacity; Mother Samantha was an etheric weaver of radiant warmth. Their tragic vehicular loss left an indelible mark of protective resolve on young Vivient.",
+            "featured": false
+          },
+          {
+            "name": "Michael Carter",
+            "relation": "Guardian • Veteran Mentor",
+            "accent": "primary",
+            "description": "Decorated combat veteran whose moral grounding, stoic discipline, and ethical engagement code shaped Vivient into an elite, principled operative and inspired her civil protection path.",
+            "featured": false
+          },
+          {
+            "name": "Sara Carter",
+            "relation": "Guardian • Lead Alchemist",
+            "accent": "secondary",
+            "description": "Eminent alchemical researcher and scholar. Provided emotional stabilization throughout postwar recovery, cultivating Vivient's analytical precision and respect for scientific discipline.",
+            "featured": false
+          },
+          {
+            "name": "Penelope Lock",
+            "relation": "Sister // Core Tether",
+            "accent": "primary",
+            "description": "Younger sister and esoteric researcher. Vivient's paramount emotional anchor—having sworn an unbreakable oath to protect Penelope at all costs despite their differing ideological paths.",
+            "featured": true
+          }
+        ],
+        "personality": [
+          {
+            "title": "Core Persona & Demeanor",
+            "tag": "Tough • Authentic • Humane",
+            "description": "Tough, courageous, and exceptionally capable under fire, yet deeply human and emotionally grounded. Unlike an unfeeling corporate weapon or flawless supermodel, Vivient is genuine—someone who laughs with squadmates, bears visible battle scars, confronts survivor guilt with unflinching honesty, and refuses to let bureaucracy treat human lives as expendable.",
+            "highlight": false
+          }
+        ],
+        "endorsementTitle": "Guardian House Endorsement",
+        "endorsementText": "Registered under the Carter Protection Accord. Subject demonstrates unparalleled familial loyalty and moral integrity."
+      }
+    ]
+  },
+  "maps": {
+    "heading": "Maps of Pangea",
+    "hudBadges": [
+      {
+        "text": "GRID: LEVITATION-STABLE",
+        "icon": "sensors",
+        "accent": "secondary",
+        "alert": false
+      },
+      {
+        "text": "CLEARANCE: ARCHON-OMEGA [AUTHORIZED]",
+        "icon": "verified_user",
+        "accent": "primary",
+        "alert": false
+      },
+      {
+        "text": "DEFCON 2 READINESS",
+        "icon": "warning",
+        "accent": "tertiary",
+        "alert": true
+      },
+      {
+        "text": "PRIMARY TELEMETRY: POST-CONJUNCTION 542",
+        "icon": "radar",
+        "accent": "secondary",
+        "alert": false
+      }
+    ],
+    "hudCounters": [
+      {
+        "label": "ETHER SYNC",
+        "value": "99.84% ARC",
+        "accent": "secondary"
+      },
+      {
+        "label": "PANGEA RECON",
+        "value": "SECTOR 07-ACTIVE",
+        "accent": "primary"
+      }
+    ],
+    "items": [
+      {
+        "tab": "MAP RECON ATLAS",
+        "tabIcon": "travel_explore",
+        "eyebrow": "TACTICAL RECON CARTOGRAPHY",
+        "name": "Pangea Supercontinent Atlas",
+        "description": "Orbital spectral imaging of the unified tectonic landmass following the Great Conjunction. Select coordinates to inspect sovereign dominion and etheric anomalies.",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAm5zQLuzXF9Pg0Uz2Q6SSWZAWmLWoRLuvKJG0UNwq43AJ2S9Xf_IlUf6v4tvXnm2SrwLf-xrAKTV6poT_amlky4SQADgcjrjYFNEnkTeKLsjtUK51eYIgdXLzEpyxS1lT8HFck_5z9kOmXjwRD03iPakjWKPpjBYzlW5SEyWgGDXk-MXW9U3BP4KgClENkKWVLeTF3Ht9Mz7UYlSxfx6DCbdbTIDdFngwWVHGDLTr9o4UQklnRlOOvJxdibzNVF-nFfw",
+        "icon": "public",
+        "coordinates": "LAT 44°12'08\"N // LON 12°54'10\"E",
+        "hudStatus": "ACTIVE RADAR SWEEP [60 FPS]",
+        "pins": [
+          {
+            "label": "FROSTSPIRE",
+            "x": 70,
+            "y": 18,
+            "accent": "secondary",
+            "major": false,
+            "icon": "location_on",
+            "labelBelow": false,
+            "tag": "SECTOR 01",
+            "threat": "",
+            "title": "Frostspire Ascendancy",
+            "subtitle": "[Placeholder] Northern glacial frontier",
+            "description": "[Placeholder] Describe this sector.",
+            "metrics": [],
+            "nation": ""
+          },
+          {
+            "label": "SUMMIT OF AHN",
+            "x": 49,
+            "y": 44,
+            "accent": "primary",
+            "major": true,
+            "icon": "token",
+            "labelBelow": false,
+            "tag": "SECTOR 02",
+            "threat": "",
+            "title": "Sacred Summit of Ahn",
+            "subtitle": "[Placeholder] Central massif",
+            "description": "[Placeholder] Describe this sector.",
+            "metrics": [],
+            "nation": ""
+          },
+          {
+            "label": "CSA // NEW HEAVEN",
+            "x": 54,
+            "y": 72,
+            "accent": "secondary",
+            "major": false,
+            "icon": "location_on",
+            "labelBelow": true,
+            "tag": "SECTOR 03 // CSA",
+            "threat": "DEFCON ALPHA",
+            "title": "Confederate States of Aethelgard",
+            "subtitle": "Delta Estuaries & Orbital Spire Corridor",
+            "description": "Seat of the restored democratic high council and the four Archon Federal Bureaus (FCI, CI, FBV, FBCM). Dominates the southern river valleys and operates the floating orbital sky-citadel of New Heaven through heavy ether-induction grids.",
+            "metrics": [
+              {
+                "label": "Dominant Entity",
+                "value": "CSA High Council",
+                "accent": "primary"
+              },
+              {
+                "label": "Elevation Profile",
+                "value": "120m Sea Delta",
+                "accent": "secondary"
+              },
+              {
+                "label": "Active Assets",
+                "value": "STU Recon Teams",
+                "accent": "primary"
+              }
+            ],
+            "nation": "NUS"
+          },
+          {
+            "label": "SOL-KHORASH",
+            "x": 22,
+            "y": 49,
+            "accent": "primary",
+            "major": false,
+            "icon": "location_on",
+            "labelBelow": false,
+            "tag": "SECTOR 04",
+            "threat": "",
+            "title": "Sultanate of Sol-Khorash",
+            "subtitle": "[Placeholder] Western Brass Dunes",
+            "description": "[Placeholder] Describe this sector.",
+            "metrics": [],
+            "nation": ""
+          },
+          {
+            "label": "LOS RIOS BLANCOS",
+            "x": 78,
+            "y": 62,
+            "accent": "secondary",
+            "major": false,
+            "icon": "location_on",
+            "labelBelow": true,
+            "tag": "SECTOR 05 // LRB",
+            "threat": "",
+            "title": "Los Ríos Blancos",
+            "subtitle": "[Placeholder] Eastern Estuary Barrier",
+            "description": "[Placeholder] Describe this sector.",
+            "metrics": [],
+            "nation": "LRB"
+          },
+          {
+            "label": "SOHM VERIDIAN",
+            "x": 73,
+            "y": 32,
+            "accent": "primary",
+            "major": false,
+            "icon": "location_on",
+            "labelBelow": false,
+            "tag": "SECTOR 06",
+            "threat": "",
+            "title": "Sohm Veridian Federation",
+            "subtitle": "[Placeholder] Northeastern Ironwood",
+            "description": "[Placeholder] Describe this sector.",
+            "metrics": [],
+            "nation": ""
+          }
+        ]
+      }
+    ]
+  },
+  "organizations": {
+    "eyebrow": "Factions & Orders",
+    "heading": "Organizations",
+    "items": [
+      {
+        "name": "FBMM",
+        "fullName": "Federal Bureau Of Magic Management",
+        "type": "Federal Intelligency",
+        "icon": "star",
+        "accent": "tertiary",
+        "sigil": "",
+        "motto": "Responsibility And Integrity",
+        "founded": "1934",
+        "headquarters": "New Heaven City",
+        "jurisdiction": "Federal Level",
+        "purpose": "The goal of the FBMM is to monitor and control the use of magic. Its purpose is to prevent users from misusing their magical abilities or using magic for personal or harmful purposes.\n\nThe FBMM protects ordinary people from the misuse of magic and other supernatural abilities. It regulates the use of magic, investigates magical incidents, and arrests individuals who abuse or illegally use their powers.\n\nIts jurisdiction covers the NUS (New United States), where it operates as the federal agency responsible for regulating and controlling the use of magic.",
+        "description": "The history of the FBMM began in 1934, during the first major period of widespread magical use. Magic was increasingly being used by ordinary people for useful and beneficial purposes. However, this period also saw a growing number of individuals misusing magic for harmful and criminal purposes.\n\nOne major event would change everything.\n\nA separatist group known as **The Chosen** carried out a terrorist attack at **Hotel Proper 9**, located in the NUS capital of **New Heaven City**. The attack proved catastrophic for the police at the time. Numerous people were killed or injured, and although the perpetrators were eventually subdued, the consequences of the attack were devastating.\n\nThe incident exposed how unprepared the existing law-enforcement agencies were when dealing with large-scale magical threats. It became clear that conventional police forces were not equipped to properly respond to individuals who could use powerful magic for terrorism and other criminal purposes.\n\nIn response, the government established the **Federal Bureau of Magic Management (FBMM)**.\n\nThe FBMM was originally proposed to the President by two Elven founders. Its primary mission was to identify and eliminate magical threats before they could develop into major incidents. In its early years, the agency was staffed primarily by Elves and Half-Elves, who possessed greater knowledge and experience with magic.\n\nOver time, the FBMM became increasingly diverse, with Humans and other races joining its ranks. Today, the FBMM serves as the NUS's primary federal agency for regulating and protecting the nation from the misuse of magic.\n\nIts responsibilities have expanded beyond simply responding to magical threats. The agency now regulates the use of magic, investigates supernatural incidents, protects the general population, and enforces laws concerning magical abilities throughout the NUS.",
+        "leader": {
+          "name": "Matthew Christopher Bourns",
+          "title": "Director",
+          "photo": "",
+          "bio": "[Placeholder] A short biography of the current leader: origin, rise to command, and defining deeds."
+        },
+        "units": [
+          {
+            "name": "[Placeholder] Field Operations Division",
+            "icon": "travel_explore",
+            "photo": "",
+            "description": "[Placeholder] What this unit does and where it operates."
+          },
+          {
+            "name": "[Placeholder] Arcane Intelligence Unit",
+            "icon": "visibility",
+            "photo": "",
+            "description": "[Placeholder] What this unit does and where it operates."
+          },
+          {
+            "name": "[Placeholder] Rapid Response Corps",
+            "icon": "bolt",
+            "photo": "",
+            "description": "[Placeholder] What this unit does and where it operates."
+          }
+        ]
+      },
+      {
+        "name": "FBIA",
+        "fullName": "Federal Bureau Of Internal Affairs",
+        "type": "Federal Intelligence",
+        "icon": "star",
+        "accent": "secondary",
+        "sigil": "",
+        "motto": "For Integrity, Hamorny and Peace",
+        "founded": "1920",
+        "headquarters": "New Heaven City",
+        "jurisdiction": "Federal Juristiction",
+        "purpose": "",
+        "description": "",
+        "leader": {
+          "name": "Justine Patel",
+          "title": "Director",
+          "photo": "",
+          "bio": ""
+        },
+        "units": []
+      }
+    ]
+  }
+}

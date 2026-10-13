@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta name="robots" content="noindex">
+<title>Pangea Archive — Admin</title>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<link href="/css/site.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+<script src="/js/theme.js"></script>
+</head>
+<body class="bg-background font-sans text-on-surface antialiased min-h-screen selection:bg-primary selection:text-on-primary">
+
+<!-- Login -->
+<section id="login-view" class="hidden min-h-screen items-center justify-center px-4">
+  <form id="login-form" class="w-full max-w-sm rounded-2xl bg-surface-container-low border border-outline-variant/40 p-8">
+    <div class="flex items-center gap-3 mb-8">
+      <span class="material-symbols-outlined text-primary text-3xl">lock</span>
+      <div>
+        <div class="font-serif text-2xl text-white tracking-[0.12em] uppercase leading-none">Pangea</div>
+        <div class="font-mono text-[10px] tracking-[0.24em] text-primary uppercase mt-1">Archive Admin</div>
+      </div>
+    </div>
+    <label for="password" class="block font-mono text-[11px] uppercase tracking-[0.18em] text-on-surface-variant mb-2">Password</label>
+    <input id="password" type="password" autocomplete="current-password" required class="w-full rounded-lg bg-surface-container-lowest border-outline-variant/60 focus:border-primary focus:ring-0 text-white">
+    <p id="login-error" class="hidden mt-3 text-sm text-tertiary"></p>
+    <button type="submit" class="mt-6 w-full px-6 py-3 rounded-lg bg-primary hover:bg-[#ffcf6f] text-on-primary font-mono text-xs uppercase font-bold tracking-[0.18em] transition-colors">Sign in</button>
+    <a href="/" class="mt-4 block text-center font-mono text-[11px] uppercase tracking-wider text-outline hover:text-white">← Back to site</a>
+  </form>
+</section>
+
+<!-- Editor -->
+<section id="editor-view" class="hidden min-h-screen flex-col">
+  <header class="sticky top-0 z-40 bg-background/90 backdrop-blur-xl border-b border-outline-variant/30">
+    <div class="px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-3 min-w-0">
+        <span class="material-symbols-outlined text-primary">edit_note</span>
+        <div class="min-w-0">
+          <div class="font-serif text-lg text-white tracking-[0.12em] uppercase leading-none">Pangea</div>
+          <div class="font-mono text-[10px] tracking-[0.2em] text-primary uppercase mt-0.5">Content Editor</div>
+        </div>
+      </div>
+      <div class="flex items-center gap-2 sm:gap-3">
+        <span id="status" class="hidden sm:inline font-mono text-[11px] uppercase tracking-wider text-outline">All changes saved</span>
+        <a href="/" target="_blank" rel="noopener" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 rounded-lg border border-outline-variant/60 text-xs font-mono uppercase tracking-wider text-white hover:bg-surface-container"><span class="material-symbols-outlined text-[16px]">visibility</span>View site</a>
+        <button id="discard-btn" type="button" disabled class="px-3 py-2 rounded-lg border border-outline-variant/60 text-xs font-mono uppercase tracking-wider text-white hover:bg-surface-container disabled:opacity-40 disabled:cursor-not-allowed">Discard</button>
+        <button id="save-btn" type="button" disabled class="px-4 py-2 rounded-lg bg-primary hover:bg-[#ffcf6f] text-on-primary text-xs font-mono uppercase font-bold tracking-wider disabled:opacity-40 disabled:cursor-not-allowed">Save</button>
+        <button id="logout-btn" type="button" aria-label="Sign out" title="Sign out" class="w-9 h-9 rounded-lg flex items-center justify-center text-outline hover:text-white hover:bg-surface-container"><span class="material-symbols-outlined text-[20px]">logout</span></button>
+      </div>
+    </div>
+    <div id="error-bar" class="hidden px-4 sm:px-6 py-2.5 bg-tertiary/10 border-t border-tertiary/30 text-sm text-tertiary"></div>
+  </header>
+
+  <div class="flex-grow flex flex-col md:flex-row">
+    <nav id="section-nav" class="md:w-60 shrink-0 border-b md:border-b-0 md:border-r border-outline-variant/30 p-3 flex md:flex-col gap-1 overflow-x-auto"></nav>
+    <main id="panel" class="flex-grow min-w-0 p-4 sm:p-8 max-w-4xl"></main>
+  </div>
+</section>
+
+<div id="toast" class="hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-50 px-4 py-2.5 rounded-lg bg-surface-container-high border border-secondary/40 text-sm text-secondary shadow-lg"></div>
+
+<script type="module" src="/js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "pangea-wiki",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pangea: The Last Bond — universe wiki with viewer and admin portals",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
