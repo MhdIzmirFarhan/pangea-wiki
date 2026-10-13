@@ -126,7 +126,7 @@ function renderNation(n, index, c) {
       <section class="relative max-w-7xl mx-auto px-6 pt-8 pb-4 w-full">
         <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 py-3">
           <div class="flex flex-wrap items-center gap-3 font-mono text-xs uppercase tracking-wider">
-            <a class="inline-flex items-center gap-2 text-outline hover:text-primary transition-colors group" href="/#nations">
+            <a class="inline-flex items-center gap-2 text-outline hover:text-primary transition-colors group" href="./#nations">
               <span class="material-symbols-outlined text-[16px] group-hover:-translate-x-1 transition-transform">arrow_back</span>Back to Nations
             </a>
             <span class="text-surface-container-highest">/</span>
@@ -257,10 +257,10 @@ function wireSearch(c) {
     ...c.nations.items.map((x) => ({ kind: 'Nation', name: x.name, sub: x.officialName || x.specialty, href: nationUrl(x), text: `${x.name} ${x.code} ${x.officialName} ${x.altName}` })),
     ...c.characters.items.map((x) => ({ kind: 'Character', name: x.name, sub: x.title, href: charUrl(x), text: `${x.name} ${x.title} ${x.realm}` })),
     ...c.organizations.items.map((x) => ({ kind: 'Organization', name: x.name, sub: x.fullName || x.type, href: orgUrl(x), text: `${x.name} ${x.fullName} ${x.type}` })),
-    ...[['races', '/races.html', 'Race'], ['history', '/history.html', 'History'], ['religions', '/religions.html', 'Religion'], ['regions', '/regions.html', 'Region']].flatMap(([k, path, kind]) =>
+    ...[['races', 'races.html', 'Race'], ['history', 'history.html', 'History'], ['religions', 'religions.html', 'Religion'], ['regions', 'regions.html', 'Region']].flatMap(([k, path, kind]) =>
       c[k].items.map((x) => ({ kind, name: x.name, sub: x.tag || x.summary, href: loreUrl(path, x), text: `${x.name} ${x.tag} ${x.summary}` }))),
-    ...c.story.acts.map((a) => ({ kind: 'Chronicle', name: a.title, sub: a.label, href: loreUrl('/chronicle.html', { name: a.title }), text: `${a.title} ${a.label}` })),
-    ...c.maps.items.map((x) => ({ kind: 'Map', name: x.name, sub: x.eyebrow, href: '/maps.html', text: `${x.name} ${x.eyebrow} ${x.pins.map((p) => `${p.label} ${p.title}`).join(' ')}` })),
+    ...c.story.acts.map((a) => ({ kind: 'Chronicle', name: a.title, sub: a.label, href: loreUrl('chronicle.html', { name: a.title }), text: `${a.title} ${a.label}` })),
+    ...c.maps.items.map((x) => ({ kind: 'Map', name: x.name, sub: x.eyebrow, href: 'maps.html', text: `${x.name} ${x.eyebrow} ${x.pins.map((p) => `${p.label} ${p.title}`).join(' ')}` })),
   ];
   const out = document.getElementById('archive-results');
   document.getElementById('archive-search').addEventListener('submit', (e) => {
@@ -283,7 +283,7 @@ function renderNotFound() {
   set('nation', html`
     <div class="max-w-3xl mx-auto px-6 py-28">
       ${emptyState('travel_explore', 'This nation is not in the archive')}
-      <div class="text-center mt-8"><a href="/#nations" class="font-mono text-xs uppercase tracking-wider text-primary hover:text-white">← Back to Nations</a></div>
+      <div class="text-center mt-8"><a href="./#nations" class="font-mono text-xs uppercase tracking-wider text-primary hover:text-white">← Back to Nations</a></div>
     </div>`);
 }
 

@@ -14,6 +14,10 @@ $env:ADMIN_PASSWORD = "choose-a-password"; npm start
 
 If `ADMIN_PASSWORD` is not set, a one-time password is printed in the console. Set `PORT` to change the port. No `npm install` needed — the server has no dependencies (Node 18+).
 
+## Hosting (GitHub Pages)
+
+Every push to `main` publishes the viewer to GitHub Pages via `.github/workflows/pages.yml` (enable it once under **Settings → Pages → Source: GitHub Actions**). Pages only serves static files, so the admin portal is not deployed: edit content locally with `npm start`, then commit and push `data/content.json` to update the live site.
+
 ## Portals
 
 ### Viewer Portal (`/`)

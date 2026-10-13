@@ -9,15 +9,15 @@ const withFact = (label, value, facts) => (value ? [{ label, value }, ...facts] 
 // `get` returns the section in a common shape: { eyebrow, heading, intro, items }
 // where each item has name, tag, summary, icon, accent, image, facts, sections, nations.
 const PAGES = {
-  races: { path: '/races.html', icon: 'diversity_1', layout: 'grid', unit: 'Race', empty: 'No races documented yet', get: (c) => c.races },
-  history: { path: '/history.html', icon: 'history_edu', layout: 'timeline', unit: 'Event', empty: 'No historic events documented yet', get: (c) => c.history },
-  religions: { path: '/religions.html', icon: 'church', layout: 'grid', unit: 'Religion', empty: 'No religions documented yet', get: (c) => c.religions },
+  races: { path: 'races.html', icon: 'diversity_1', layout: 'grid', unit: 'Race', empty: 'No races documented yet', get: (c) => c.races },
+  history: { path: 'history.html', icon: 'history_edu', layout: 'timeline', unit: 'Event', empty: 'No historic events documented yet', get: (c) => c.history },
+  religions: { path: 'religions.html', icon: 'church', layout: 'grid', unit: 'Religion', empty: 'No religions documented yet', get: (c) => c.religions },
   regions: {
-    path: '/regions.html', icon: 'travel_explore', layout: 'grid', unit: 'Region', empty: 'No regions documented yet',
+    path: 'regions.html', icon: 'travel_explore', layout: 'grid', unit: 'Region', empty: 'No regions documented yet',
     get: (c) => ({ ...c.regions, items: c.regions.items.map((e) => ({ ...e, facts: withFact('Sub-regions', e.subregions, e.facts) })) }),
   },
   chronicle: {
-    path: '/chronicle.html', icon: 'auto_stories', layout: 'timeline', unit: 'Act', empty: 'The chronicle has not been written yet',
+    path: 'chronicle.html', icon: 'auto_stories', layout: 'timeline', unit: 'Act', empty: 'The chronicle has not been written yet',
     get: (c) => ({
       ...c.story,
       items: c.story.acts.map((a) => ({ ...a, name: a.title, tag: a.label, summary: a.body, facts: withFact('Era', a.footer, a.facts) })),
@@ -119,7 +119,7 @@ function renderEntry(e, index, s, c) {
       <div class="absolute inset-0 bg-gradient-to-b from-${ac}/10 via-background to-background pointer-events-none"></div>
       <div class="relative max-w-6xl mx-auto px-6 pt-10 pb-14">
         <nav aria-label="Breadcrumb" class="font-mono text-[11px] uppercase tracking-wider text-outline mb-10 flex flex-wrap items-center gap-2">
-          <a href="/" class="hover:text-white transition-colors">Home</a>
+          <a href="./" class="hover:text-white transition-colors">Home</a>
           <span class="material-symbols-outlined text-[14px]">chevron_right</span>
           <a href="${page.path}" class="hover:text-white transition-colors">${s.heading}</a>
           <span class="material-symbols-outlined text-[14px]">chevron_right</span>

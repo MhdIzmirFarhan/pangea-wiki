@@ -70,7 +70,7 @@ function renderCharacter(ch, section) {
     <section class="w-full py-12 px-6">
       <div class="max-w-7xl mx-auto">
         <nav aria-label="Breadcrumb" class="font-mono text-[11px] uppercase tracking-wider text-outline mb-8 flex items-center gap-2">
-          <a href="/" class="hover:text-white transition-colors">Home</a>
+          <a href="./" class="hover:text-white transition-colors">Home</a>
           <span class="material-symbols-outlined text-[14px]">chevron_right</span>
           <span>${section.heading}</span>
           <span class="material-symbols-outlined text-[14px]">chevron_right</span>
@@ -229,7 +229,7 @@ function renderNotFound(section) {
   set('character', html`
     <div class="max-w-3xl mx-auto px-6 py-28">
       ${emptyState('person_search', 'This character is not in the archive')}
-      <div class="text-center mt-8"><a href="/" class="font-mono text-xs uppercase tracking-wider text-primary hover:text-white">← Back to home</a></div>
+      <div class="text-center mt-8"><a href="./" class="font-mono text-xs uppercase tracking-wider text-primary hover:text-white">← Back to home</a></div>
     </div>`);
 }
 

@@ -14,11 +14,11 @@ export const set = (id, content) => { document.getElementById(id).innerHTML = co
 export const acc = (a) => (ACCENTS.includes(a) ? a : 'primary');
 export const pad = (n) => String(n).padStart(2, '0');
 export const slug = (s) => String(s).toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'untitled';
-export const orgUrl = (org) => `/organization.html?id=${encodeURIComponent(slug(org.name))}`;
+export const orgUrl = (org) => `organization.html?id=${encodeURIComponent(slug(org.name))}`;
 export const nationId = (n) => slug(n.code || n.name);
-export const nationUrl = (n) => `/nation.html?id=${encodeURIComponent(nationId(n))}`;
+export const nationUrl = (n) => `nation.html?id=${encodeURIComponent(nationId(n))}`;
 export const loreUrl = (path, entry) => `${path}?id=${encodeURIComponent(slug(entry.name))}`;
-export const charUrl = (ch) => `/character.html?id=${encodeURIComponent(slug(ch.name))}`;
+export const charUrl = (ch) => `character.html?id=${encodeURIComponent(slug(ch.name))}`;
 
 // Long text fields: blank lines separate paragraphs, **word** marks a highlight.
 export const paragraphs = (s) => String(s ?? '').split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
@@ -27,7 +27,7 @@ export const plain = (s) => String(s ?? '').replace(/\*\*(.+?)\*\*/g, '$1');
 export const rich = (s, cls) => new Raw(esc(s).replace(/\*\*(.+?)\*\*/g, (_, t) => `<span class="${cls}">${t}</span>`));
 
 export async function loadContent() {
-  const res = await fetch('/api/content', { cache: 'no-store' });
+  const res = await fetch('api/content', { cache: 'no-store' });
   if (!res.ok) throw new Error(res.statusText);
   return res.json();
 }
@@ -112,14 +112,14 @@ export function renderHeader(c) {
     <div class="absolute top-[80%] left-1/2 -translate-x-1/2 w-[1000px] max-w-[calc(100vw-2rem)] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto group-focus-within:opacity-100 group-focus-within:pointer-events-auto transition-all duration-300 pt-3 z-50">
       <div class="bg-surface-container-high/95 backdrop-blur-xl border border-primary/30 rounded-2xl p-6 shadow-[0_20px_50px_rgba(0,0,0,0.8)] ring-1 ring-primary/20">
         <div class="grid grid-cols-4 gap-5">
-          ${loreColumn(c.races, '/races.html', 'diversity_1', 'primary', false)}
-          ${loreColumn(c.history, '/history.html', 'history_edu', 'secondary', true)}
-          ${loreColumn(c.religions, '/religions.html', 'church', 'tertiary', false)}
-          ${loreColumn(c.regions, '/regions.html', 'travel_explore', 'primary', true)}
+          ${loreColumn(c.races, 'races.html', 'diversity_1', 'primary', false)}
+          ${loreColumn(c.history, 'history.html', 'history_edu', 'secondary', true)}
+          ${loreColumn(c.religions, 'religions.html', 'church', 'tertiary', false)}
+          ${loreColumn(c.regions, 'regions.html', 'travel_explore', 'primary', true)}
         </div>
         <div class="mt-4 pt-3 border-t border-outline-variant/30 flex items-center justify-between text-xs font-mono">
           <span class="text-outline">${u.footerNote}</span>
-          <a class="text-primary hover:text-white flex items-center gap-1 transition-colors" href="/maps.html"><span>Explore Interactive Atlas</span><span class="material-symbols-outlined text-[14px]">arrow_forward</span></a>
+          <a class="text-primary hover:text-white flex items-center gap-1 transition-colors" href="maps.html"><span>Explore Interactive Atlas</span><span class="material-symbols-outlined text-[14px]">arrow_forward</span></a>
         </div>
       </div>
     </div>`;
@@ -152,7 +152,7 @@ export function renderHeader(c) {
 
   set('site-header', html`
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between gap-8">
-      <a class="flex items-center gap-3.5 group" href="/">
+      <a class="flex items-center gap-3.5 group" href="./">
         <img alt="${c.site.brandName} crest" class="h-9 w-9 rounded-full object-cover ring-1 ring-primary/40 group-hover:ring-primary transition-all group-hover:scale-105" src="${c.site.crestImage}">
         <div class="flex flex-col">
           <span class="font-serif text-xl tracking-[0.18em] font-semibold text-white uppercase leading-none group-hover:text-primary transition-colors">${c.site.brandName}</span>
@@ -160,16 +160,16 @@ export function renderHeader(c) {
         </div>
       </a>
       <nav class="hidden lg:flex items-center gap-9">
-        <a class="${navLink} flex items-center gap-1.5" href="/chronicle.html"><span>The Story</span><span class="font-mono text-[10px] text-primary/70 tracking-widest">// Plot</span></a>
+        <a class="${navLink} flex items-center gap-1.5" href="chronicle.html"><span>The Story</span><span class="font-mono text-[10px] text-primary/70 tracking-widest">// Plot</span></a>
         <div class="relative group py-6">
-          <a class="text-sm font-medium uppercase tracking-[0.14em] text-white group-hover:text-primary transition-colors flex items-center gap-1.5" href="/#nations"><span>The Universe</span>${caret}</a>
+          <a class="text-sm font-medium uppercase tracking-[0.14em] text-white group-hover:text-primary transition-colors flex items-center gap-1.5" href="./#nations"><span>The Universe</span>${caret}</a>
           ${universeMenu}
         </div>
         <div class="relative group py-6">
           <button type="button" aria-haspopup="true" class="${navLink} group-hover:text-primary flex items-center gap-1.5"><span>Characters</span>${caret}</button>
           ${charMenu}
         </div>
-        <a class="${navLink}" href="/maps.html">Maps</a>
+        <a class="${navLink}" href="maps.html">Maps</a>
         <div class="relative group py-6">
           <button type="button" aria-haspopup="true" class="${navLink} group-hover:text-primary flex items-center gap-1.5"><span>Organizations</span>${caret}</button>
           ${orgMenu}
@@ -182,13 +182,13 @@ export function renderHeader(c) {
       </div>
     </div>
     <nav id="mobile-menu" class="hidden lg:hidden max-h-[70vh] overflow-y-auto border-t border-outline-variant/30 bg-background/95 px-6 py-4 flex-col gap-1">
-      <a class="block py-2.5 ${navLink}" href="/chronicle.html">The Story</a>
-      <a class="block py-2.5 ${navLink}" href="/#nations">The Universe</a>
-      <a class="block py-1.5 pl-4 border-l border-outline-variant/40 text-sm text-on-surface-variant hover:text-primary" href="/races.html">${c.races.heading}</a>
-      <a class="block py-1.5 pl-4 border-l border-outline-variant/40 text-sm text-on-surface-variant hover:text-primary" href="/history.html">${c.history.heading}</a>
-      <a class="block py-1.5 pl-4 border-l border-outline-variant/40 text-sm text-on-surface-variant hover:text-primary" href="/religions.html">${c.religions.heading}</a>
-      <a class="block py-1.5 pl-4 border-l border-outline-variant/40 text-sm text-on-surface-variant hover:text-primary" href="/regions.html">${c.regions.heading}</a>
-      <a class="block py-2.5 ${navLink}" href="/maps.html">Maps</a>
+      <a class="block py-2.5 ${navLink}" href="chronicle.html">The Story</a>
+      <a class="block py-2.5 ${navLink}" href="./#nations">The Universe</a>
+      <a class="block py-1.5 pl-4 border-l border-outline-variant/40 text-sm text-on-surface-variant hover:text-primary" href="races.html">${c.races.heading}</a>
+      <a class="block py-1.5 pl-4 border-l border-outline-variant/40 text-sm text-on-surface-variant hover:text-primary" href="history.html">${c.history.heading}</a>
+      <a class="block py-1.5 pl-4 border-l border-outline-variant/40 text-sm text-on-surface-variant hover:text-primary" href="religions.html">${c.religions.heading}</a>
+      <a class="block py-1.5 pl-4 border-l border-outline-variant/40 text-sm text-on-surface-variant hover:text-primary" href="regions.html">${c.regions.heading}</a>
+      <a class="block py-2.5 ${navLink}" href="maps.html">Maps</a>
       <span class="block pt-2.5 pb-1 ${navLink}">Characters</span>
       ${chars.map((ch) => html`<a class="block py-1.5 pl-4 border-l border-outline-variant/40 text-sm text-on-surface-variant hover:text-primary" href="${charUrl(ch)}">${ch.name}</a>`)}
       <span class="block pt-2.5 pb-1 ${navLink}">Organizations</span>
@@ -225,7 +225,7 @@ export function renderHeader(c) {
 export function renderFooter(site) {
   set('site-footer', html`
     <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-      <a href="/" class="flex items-center gap-3">
+      <a href="./" class="flex items-center gap-3">
         <img alt="" class="h-7 w-7 rounded-full object-cover ring-1 ring-primary/40" src="${site.crestImage}">
         <span class="font-serif text-sm tracking-[0.18em] text-white uppercase">${site.brandName}</span>
       </a>

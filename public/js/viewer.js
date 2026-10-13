@@ -35,7 +35,7 @@ function renderHero(h) {
 function renderStory(s) {
   const card = (a) => {
     const ac = acc(a.accent);
-    const href = loreUrl('/chronicle.html', { name: a.title });
+    const href = loreUrl('chronicle.html', { name: a.title });
     return a.highlight
       ? html`
         <a href="${href}" class="p-8 rounded-2xl bg-surface-container-high border border-${ac}/40 hover:border-${ac}/70 transition-all shadow-[0_0_30px_rgba(240,191,92,0.1)] flex flex-col justify-between group">
@@ -60,7 +60,7 @@ function renderStory(s) {
     <div class="max-w-6xl mx-auto px-6">
       ${sectionHeader(s)}
       ${s.acts.length ? html`<div class="grid grid-cols-1 md:grid-cols-3 gap-8">${s.acts.map(card)}</div>
-      <div class="mt-10 text-center"><a href="/chronicle.html" class="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.18em] text-primary hover:text-white transition-colors">Read the full chronicle <span class="material-symbols-outlined text-[16px]">arrow_forward</span></a></div>` : emptyState('auto_stories', 'Chronicle coming soon')}
+      <div class="mt-10 text-center"><a href="chronicle.html" class="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.18em] text-primary hover:text-white transition-colors">Read the full chronicle <span class="material-symbols-outlined text-[16px]">arrow_forward</span></a></div>` : emptyState('auto_stories', 'Chronicle coming soon')}
     </div>`);
 }
 

@@ -34,7 +34,7 @@ function renderOrg(o, all, section) {
       <div class="absolute inset-0 bg-gradient-to-b from-${ac}/10 via-background to-background pointer-events-none"></div>
       <div class="relative max-w-6xl mx-auto px-6 pt-10 pb-16">
         <nav aria-label="Breadcrumb" class="font-mono text-[11px] uppercase tracking-wider text-outline mb-10 flex items-center gap-2">
-          <a href="/" class="hover:text-white transition-colors">Home</a>
+          <a href="./" class="hover:text-white transition-colors">Home</a>
           <span class="material-symbols-outlined text-[14px]">chevron_right</span>
           <span>${section.heading}</span>
           <span class="material-symbols-outlined text-[14px]">chevron_right</span>
@@ -147,7 +147,7 @@ function renderNotFound(section) {
   set('org', html`
     <div class="max-w-3xl mx-auto px-6 py-28">
       ${emptyState('search_off', 'This organization is not in the archive')}
-      <div class="text-center mt-8"><a href="/" class="font-mono text-xs uppercase tracking-wider text-primary hover:text-white">← Back to home</a></div>
+      <div class="text-center mt-8"><a href="./" class="font-mono text-xs uppercase tracking-wider text-primary hover:text-white">← Back to home</a></div>
     </div>`);
 }
 
